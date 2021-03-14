@@ -20,11 +20,11 @@ https://github.com/CloneTrooper1019/Roblox_0.3.368.0/archive/main.zip
 
 # Helpful Commands #
 
-* Create a player:  
+* Create a player:<br/>
 `game.Players:createLocalPlayer(0)`
 
-* Load your player's character:
+* Load your player's character:<br/>
 `game.Players.LocalPlayer:LoadCharacter()`
 
-* Run the game:  
+* Run the game:<br/>
 `game:GetService("RunService"):run()`
