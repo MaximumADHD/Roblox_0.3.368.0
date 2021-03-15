@@ -46,9 +46,21 @@ You must copy the following files into the root directory of this repository:
 **IMPORTANT NOTES:**
 
 - When these DLL files are active, the rendering speed will slow to a crawl.
-	- This is a known defect which cannot be avoided.
+	- This is cannot be avoided as this forces rendering to software rendering.
 	- Remove the DLLs from the root directory when you aren't using them.
-- Arguments for `ThumbnailGenerator:click` have the following constraints:
-  - `fileType` must be 
-- Upon using the `click` function, Roblox will close shortly after.
-- The string returned by the function is the image encoded in base64.
+- Shadows must be disabled or Roblox will crash when opening a new place
+- Upon using the `click()` function, the crash dialog may show (though usually you can still interact with the client).
+- MesaLib is very prone to rendering bugs (text appearing as black boxes, etc), though these don't affect the outcome of the thumbnail.
+
+- Arguments for `ThumbnailGenerator:click()` have the following constraints:
+  - `fileType` can be `PNG`, `JPG`, `TGA`, `BMP`, `PCX` or `ICO` 
+  - `cx` is the width of the thumbnail (max is 4096)
+  - `cy` is the height of the thumbnail (max is 4096)
+  - `hideSky` will make the sky transparent and adjust the camera angle if set to true, and will keep the sky and original camera angle if set to false
+ - The string returned by the function is the image encoded in base64. Use a base64 to image converter like this one [here](https://codebeautify.org/base64-to-image-converter).
+
+Example usage (renders an avatar thumbnail):
+```
+if not game.Players.LocalPlayer then game.Players:createLocalPlayer(0):LoadCharacter() end
+print(game:service("ThumbnailGenerator"):click("PNG", 420, 420, true))
+```
