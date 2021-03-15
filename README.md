@@ -33,7 +33,7 @@ This build features the `ThumbnailGenerator` service, which is still used to thi
 
 ```
 Class ThumbnailGenerator : Instance
-	Function string ThumbnailGenerator:click(string fileType, int cx, int cy, bool hideSky)
+    Function string ThumbnailGenerator:click(string fileType, int cx, int cy, bool hideSky)
 ```
 
 Note that this service **does not work** immediately, it will crash Roblox if it isn't setup correctly.<br/>
