@@ -27,4 +27,4 @@ https://github.com/CloneTrooper1019/Roblox_0.3.368.0/archive/main.zip
 `game.Players.LocalPlayer:LoadCharacter()`
 
 * Run the game:<br/>
-`game:GetService("RunService"):run()`
+`game:service("RunService"):run()`
