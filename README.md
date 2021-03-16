@@ -4,6 +4,14 @@ This is a newly discovered build of Roblox, compiled in March of 2007.<br/>
 To run the client, download this repository as a zip and extract it.<br/>
 The executable can be found in the `client` folder!
 
+## Credits ##
+
+* **Konotsu**, **Matsu**, **TheMiningBoyAlpha**, **TheSpiderLuke**: Finding the client and being the first ones to get it running.
+* **CloneTrooper1019**: Making this repository, public awareness, coordination with the folks who discovered it.
+* **XIXi**: Fixed the player animations, sounds, provided missing features for the game join scripts.
+* **pizzaboxer** Got the ThumbnailGenerator into a functional state and wrote documentation.
+* **Vulpovile**: Initially announced it's discovery to our Discord communities.
+
 # Requirements #
 
 For this to execute correctly, you need to make sure your system has the `Microsoft Visual C++ 2005 Service Pack` installed. This pack was standard in most older systems, but newer systems are no longer bundled with it.<br/>
@@ -12,6 +20,10 @@ You can find it here:<br/>
 https://www.microsoft.com/en-us/download/details.aspx?id=26347
 
 **(Note**: You will need the x86 pack. It may also help to have the x64 pack as well.)
+
+# Content Disclaimer #
+
+Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but some files in the content folder may not be 100% accurate to what was in the client as of March 2007. 
 
 # WARNING: DO NOT CONNECT TO UNTRUSTED SERVERS #
 
@@ -114,10 +126,3 @@ end
 game.Players.LocalPlayer:LoadCharacter()
 print(game:service("ThumbnailGenerator"):click("PNG", 420, 420, true))
 ```
-
-## Credits ##
-
-CloneTrooper1019: Making this github
-Konotsu/Matsu/TheMiningBoyAlpha/TheSpiderLuke: Finding the client and being the first to get it running
-Vulpovile: Being the one too announce it
-XIXi: Being the one to fix the player animations, sounds, and making the server/solo scripts
