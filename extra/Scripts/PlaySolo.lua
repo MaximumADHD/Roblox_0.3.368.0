@@ -34,4 +34,5 @@ end
 player.Changed:connect(onChanged)
 player:LoadCharacter()
 
+game:service("Visit") --Lets humanoids be visible as well as health bar
 game:service("RunService"):run()
