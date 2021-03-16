@@ -114,3 +114,10 @@ end
 game.Players.LocalPlayer:LoadCharacter()
 print(game:service("ThumbnailGenerator"):click("PNG", 420, 420, true))
 ```
+
+## Credits ##
+
+CloneTrooper1019: Making this github
+Konotsu/Matsu/TheMiningBoyAlpha/TheSpiderLuke: Finding the client and being the first to get it running
+Vulpovile: Being the one too announce it
+XIXi: Being the one to fix the player animations, sounds, and making the server/solo scripts
