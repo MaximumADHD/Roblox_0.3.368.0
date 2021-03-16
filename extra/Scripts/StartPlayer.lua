@@ -1,6 +1,10 @@
 local Visit = game:service("Visit")
 local Players = game:service("Players")
 local NetworkClient = game:service("NetworkClient")
+local playerName = "Player" --Enter the player name here
+local ip = "localhost" --Enter the IP here
+local port = 53640
+local id = math.random(2147483647)
 
 local function onConnectionRejected()
 	game:SetMessage("This game is not available. Please try another")
@@ -49,10 +53,11 @@ local success, errorMsg = pcall(function ()
 	local player = Players.LocalPlayer
 	
 	if not player then
-		player = Players:createLocalPlayer(0)
+		player = Players:createLocalPlayer(id)
+		player.Name = playerName
 	end
 	
-	NetworkClient:connect("localhost", 53640, 0)
+	NetworkClient:connect(ip, port, 0)
 end)
 
 if not success then
