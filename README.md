@@ -50,11 +50,11 @@ Here are some basic commands that can be used to do various things in this build
 * Start a Play Solo session:<br/>
 `loadfile("rbxasset://../../extra/scripts/PlaySolo.lua")()`
 
-* Start a localhost server.<br/>
-`loadfile("rbxasset://../../extra/scripts/StartServer.lua")()`
+* Start a localhost server on port 53640:<br/>
+`loadfile("rbxasset://../../extra/scripts/GameServer.lua")(53640)`
 
-* Connect to a localhost server:<br/>
-`loadfile("rbxasset://../../extra/scripts/StartPlayer.lua")()`
+* Connect to a localhost server on port 53640:<br/>
+`loadfile("rbxasset://../../extra/scripts/Join.lua")(1, "Player", "localhost", 53640)`
 
 ## Manual Actions ##
 
