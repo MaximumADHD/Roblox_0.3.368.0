@@ -16,7 +16,9 @@ https://www.microsoft.com/en-us/download/details.aspx?id=26347
 # WARNING: DO NOT CONNECT TO UNTRUSTED SERVERS #
 
 This build does support hosting and connecting to servers, but there's a non-zero chance this build has exploitable bugs that can be used for **remote code execution** on your machine.<br/>
+
 If you do try and take advantage of the multiplayer functionality in this build, make sure you only connect to servers that are trustworthy. Otherwise it isn't worth doing.<br/>
+
 You have been warned, be smart and have fun :)!
 
 # Download Link #
