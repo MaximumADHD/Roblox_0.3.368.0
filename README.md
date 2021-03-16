@@ -8,6 +8,7 @@ The executable can be found in the `client` folder!
 
 * **Konotsu**, **Matsu**, **TheMiningBoyAlpha**, **TheSpiderLuke**: Finding the client and being the first ones to get it running.
 * **CloneTrooper1019**: Making this repository, public awareness, fixed places and wrote the game join scripts.
+* **Nukley**: Helped with structuring the client folder and replacing non-canonical files with authentic ones.
 * **XIXi**: Fixed the player animations, sounds, provided missing features for the game join scripts.
 * **pizzaboxer**: Got the ThumbnailGenerator into a functional state and wrote documentation.
 * **Vulpovile**: Initially announced it's discovery to our Discord communities.
