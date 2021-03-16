@@ -6,10 +6,12 @@ The executable can be found in the `client` folder!
 
 # Requirements #
 
-For this to execute correctly, you need to make sure your system has the `Microsoft Visual C++ 2005 Service Pack` installed. This pack was standard in most older systems, but newer systems are no longer bundled with it. You can find it here:<br>
+For this to execute correctly, you need to make sure your system has the `Microsoft Visual C++ 2005 Service Pack` installed. This pack was standard in most older systems, but newer systems are no longer bundled with it.<br/>
+
+You can find it here:<br/>
 https://www.microsoft.com/en-us/download/details.aspx?id=26347
 
-<br/>**(Note**: You will need the x86 pack. It may also help to have the x64 pack as well.)
+**(Note**: You will need the x86 pack. It may also help to have the x64 pack as well.)
 
 # WARNING: DO NOT CONNECT TO UNTRUSTED SERVERS #
 
