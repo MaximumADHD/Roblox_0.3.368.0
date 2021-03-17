@@ -83,6 +83,13 @@ Here are some basic commands that can be used to do various things in this build
 * Reset the DataModel to an empty state:<br/>
 `game:clearContent()`
 
+# Bloom and Depth of Field #
+Just like the [mid-2007 client](https://github.com/CloneTrooper1019/Roblox-2007-Client#enabling-bloom-and-depth-of-field-effects), you can enable depth of field and bloom. It's still disabled, so you will need to hex-edit the executable with a program such as HxD. To enable either one of these, change the following offsets from 00 to 01.
+- Bloom: `F2401`
+- Depth of Field: `F240E`
+
+![Depth of field and bloom in a hex editor](https://user-images.githubusercontent.com/62524115/111388579-8a0bdf80-867d-11eb-9bf0-f36fafc4ca1a.png)
+
 # ThumbnailGenerator Support #
 
 This build features the `ThumbnailGenerator` service, which is still used by Roblox to this day for render avatars and game thumbnails!<br/>
@@ -100,14 +107,6 @@ You must copy the following files into the `client` directory of this repository
 - `extra/Mesa-7.2/GLU32.DLL` -> `client/GLU32.DLL`
 - `extra/Mesa-7.2/OPENGL32.DLL` -> `client/OPENGL32.DLL`
 - `extra/Mesa-7.2/OSMESA32.DLL` -> `client/OSMESA32.DLL`
-
-# Bloom and Depth of Field #
-Just like the [mid-2007 client](https://github.com/CloneTrooper1019/Roblox-2007-Client#enabling-bloom-and-depth-of-field-effects), you can enable depth of field and bloom. It's still disabled, so you will need to hex-edit the executable with a program such as HxD. To enable either one of these, change the following offsets from 00 to 01.
-- Bloom: `F2401`
-- Depth of Field: `F240E`
-
-![Depth of field and bloom in a hex editor](https://user-images.githubusercontent.com/62524115/111388579-8a0bdf80-867d-11eb-9bf0-f36fafc4ca1a.png)
-
 
 ## IMPORTANT NOTES ##
 
