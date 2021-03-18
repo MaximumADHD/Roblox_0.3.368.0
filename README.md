@@ -6,12 +6,12 @@ The executable can be found in the `client` folder!
 
 ## Credits ##
 
-* **Konotsu**, **Matsu**, **TheMiningBoyAlpha**, **TheSpiderLuke**: Finding the client and being the first ones to get it running.
+* **Konotsu**, **Matsu**, **TheMiningBoyAlpha**, **TheSpiderLuke** (same person): Finding client and being the first ones to get it running.
 * **CloneTrooper1019**: Making this repository, public awareness, fixed places and wrote the game join scripts.
-* **Nukley**: Helped with structuring the client folder and replacing non-canonical files with authentic ones.
-* **XIXi**: Fixed the player animations, sounds, provided missing features for the game join scripts.
+* **Nukley**: Added more accurate player animations, Helped with structuring the client folder and replacing non-canonical files with authentic ones.
+* **XIXi**: Provided missing features for the game join scripts.
 * **pizzaboxer**: Got the ThumbnailGenerator into a functional state and wrote documentation.
-* **Vulpovile**: Initially announced it's discovery to our Discord communities.
+* **Vulpovile**: Fixed player animations and provided initial reconstructed files, announcing it's discovery to our Discord communities.
 
 # Requirements #
 
@@ -24,7 +24,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=26347
 
 # Content Disclaimer #
 
-Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but some files in the content folder may not be 100% accurate to what was in the client as of March 2007. 
+Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but files in the content folder and ReflectionMetadata may not be 100% accurate to what was in the client as of March 2007. 
 
 # WARNING: DO NOT CONNECT TO UNTRUSTED SERVERS #
 
