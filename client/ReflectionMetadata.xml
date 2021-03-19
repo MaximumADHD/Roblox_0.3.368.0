@@ -356,7 +356,7 @@
         <Properties></Properties>
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">Clone</string>
+            <string name="Name">clone</string>
             <string name="summary">Returns a copy of this Object and all its children. The copy's Parent is nil</string>
           </Properties>
         </Item>
@@ -364,18 +364,12 @@
           <Properties>
             <string name="Name">children</string>
             <bool name="Deprecated">true</bool>
-            <string name="summary">Use GetChildren() instead</string>
-          </Properties>
-        </Item>
-        <Item class="ReflectionMetadataMember">
-          <Properties>
-            <string name="Name">GetChildren</string>
             <string name="summary">Returns a read-only table of this Object's children</string>
           </Properties>
         </Item>
         <Item class="ReflectionMetadataMember">
           <Properties>
-            <string name="Name">Remove</string>
+            <string name="Name">remove</string>
             <string name="summary">Sets the Parent property to nil and calls Remove() on all children</string>
           </Properties>
         </Item>
