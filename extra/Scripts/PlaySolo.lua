@@ -1,3 +1,9 @@
+-- Services
+local Visit = game:Service("Visit")
+local Players = game:service("Players")
+local RunService = game:service("RunService")
+
+-- Create Player
 local player = game.Players.LocalPlayer
 
 if not player then
@@ -34,4 +40,5 @@ end
 player.Changed:connect(onChanged)
 player:LoadCharacter()
 
-game:service("RunService"):run()
+-- Start the game.
+RunService:run()
