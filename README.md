@@ -24,7 +24,7 @@ https://www.microsoft.com/en-us/download/details.aspx?id=26347
 
 # Content Disclaimer #
 
-Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but files in the content folder and ReflectionMetadata may not be 100% accurate to what was in the client as of March 2007.
+Some of the files here are not the authentic original files, this is just an approximate reconstruction from files we do have. The executable is authentic, but some files present in the client folder (i.e. `ReflectionMetadata.xml` and the `content` folder), may not be 100% accurate to what was in the client as of March 2007. We are continuously working to get it as close as possible.
 
 # WARNING: DO NOT CONNECT TO UNTRUSTED SERVERS #
 
