@@ -46,7 +46,7 @@ If you do try and take advantage of the multiplayer functionality in this build,
 You have been warned, be smart and have fun :)!
 
 # Download Link #
-https://github.com/CloneTrooper1019/Roblox_0.3.368.0/archive/master.zip
+https://github.com/CloneTrooper1019/Roblox_0.3.368.0/archive/main.zip
 
 # Basic Commands #
 
