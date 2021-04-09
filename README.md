@@ -120,7 +120,7 @@ You must copy the following files into the `client` directory of this repository
 ## IMPORTANT NOTES ##
 
 - When these DLL files are active, the rendering speed will slow to a crawl depending on the resolution of the game window.
-	- This is cannot be avoided as this forces rendering to software rendering.
+	- This cannot be avoided as this forces rendering to software rendering.
 	- Remove the DLLs from the `client` directory when you aren't using them!
 - Shadows **must be disabled** or Roblox will crash when opening a new place.
 - Upon using `ThumbnailGenerator:click`, the crash dialog may show (though usually you can still interact with the client).
