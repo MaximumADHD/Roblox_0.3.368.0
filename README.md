@@ -4,6 +4,7 @@ This is a newly discovered build of Roblox, compiled in March of 2007.<br/>
 To run the client, download this repository as a zip and extract it.<br/>
 The executable can be found in the `client` folder!
 
+
 ## Credits ##
 
 * **Konotsu**, **Matsu**, **TheMiningBoyAlpha**/**TheSpiderLuke**: Finding client and being the first ones to get it running.
@@ -12,6 +13,9 @@ The executable can be found in the `client` folder!
 * **XIXi**: Provided missing features for the game join scripts.
 * **pizzaboxer**: Got the ThumbnailGenerator into a functional state and wrote documentation.
 * **Vulpovile**: Fixed player sounds and provided initial reconstructed files, announced the build's discovery to our Discord communities.
+
+>**Please do not contact any contributors for assistance in getting this to work. If you intend to mess with this build, you're on your own.
+We have done all that we can to provide enough information to people who have enough technical knowledge to get this up and running.**
 
 # IMPORTANT: Antivirus Disclaimer #
 
