@@ -1,5 +1,5 @@
 -- Services
-local Visit = game:Service("Visit")
+local Visit = game:service("Visit")
 local Players = game:service("Players")
 local RunService = game:service("RunService")
 
