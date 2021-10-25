@@ -105,7 +105,7 @@ Just like the [mid-2007 client](https://github.com/CloneTrooper1019/Roblox-2007-
 
 # ThumbnailGenerator Support #
 
-This build features the `ThumbnailGenerator` service, which is still used by Roblox to this day for render avatars and game thumbnails!<br/>
+This build features the `ThumbnailGenerator` service, which is still used by Roblox to this day for rendering avatars and game thumbnails!<br/>
 While it only exists on Roblox's backend server today, it happened to exist in this build for some reason.<br/>
 It has the following API definition:
 
