@@ -117,9 +117,9 @@ Class ThumbnailGenerator : Instance
 Note that this service **does not work** immediately, it will crash Roblox if it isn't setup correctly.<br/>
 You must copy the following files into the `client` directory of this repository:
 
-- `extra/Mesa-7.2/GLU32.DLL` -> `client/GLU32.DLL`
-- `extra/Mesa-7.2/OPENGL32.DLL` -> `client/OPENGL32.DLL`
-- `extra/Mesa-7.2/OSMESA32.DLL` -> `client/OSMESA32.DLL`
+- `extra/Mesa-6.5.2/GLU32.DLL` -> `client/GLU32.DLL`
+- `extra/Mesa-6.5.2/OPENGL32.DLL` -> `client/OPENGL32.DLL`
+- `extra/Mesa-6.5.2/OSMESA32.DLL` -> `client/OSMESA32.DLL`
 
 ## IMPORTANT NOTES ##
 
